@@ -1,6 +1,6 @@
 import scipy.io as scio
 
-path = 'data//July04_p5_6_1.mat'
+path = 'data//July04_p16_1_1.mat'
 matData = scio.loadmat(path)
 matData = matData['means'][0]
 hexLists = []
